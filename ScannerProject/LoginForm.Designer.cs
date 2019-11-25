@@ -100,6 +100,7 @@ namespace ScannerProject
             this.teUserName.Size = new System.Drawing.Size(234, 20);
             this.teUserName.StyleController = this.lc;
             this.teUserName.TabIndex = 4;
+            this.teUserName.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TePassword_KeyDown);
             // 
             // tePassword
             // 
